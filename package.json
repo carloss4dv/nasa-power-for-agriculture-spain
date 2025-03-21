@@ -1,0 +1,31 @@
+{
+  "name": "nasa-power-api-client",
+  "version": "1.0.0",
+  "description": "Cliente TypeScript para la API NASA POWER enfocado en datos meteorológicos de España",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "example": "npx ts-node ejemplos/nasa-power-ejemplo.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nasa",
+    "power",
+    "api",
+    "meteorología",
+    "clima",
+    "españa"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.5",
+    "axios": "^1.6.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

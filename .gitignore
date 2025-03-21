@@ -1,0 +1,63 @@
+# Dependencias
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Archivos de compilación
+dist/
+build/
+lib/
+coverage/
+*.tsbuildinfo
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de caché
+.npm
+.eslintcache
+.cache/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs y editores
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos específicos del proyecto
+secrets.json
+config.local.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Directorios de pruebas
+__tests__/coverage
+.nyc_output
+
+# Archivos temporales
+tmp/
+temp/
+
+# Directorios de documentación generados
+docs/generated/ 
