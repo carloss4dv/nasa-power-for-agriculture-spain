@@ -35,6 +35,9 @@ jobs:
       - name: Run Tests
         run: npm test
 
+      - name: Say hello
+        run: echo "Hello"
+
   publish-npm:
     needs: test-and-build
     runs-on: ubuntu-latest
