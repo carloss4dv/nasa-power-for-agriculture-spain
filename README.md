@@ -1,4 +1,4 @@
-# NASA POWER for Agriculture Spain - Documentación Mejorada
+# NASA POWER for Agriculture Spain 
 
 ## Descripción General
 
