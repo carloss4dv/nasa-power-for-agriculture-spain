@@ -629,5 +629,5 @@ Para ejecutar este ejemplo:
    npm install
 
 2. Ejecuta el ejemplo con ts-node:
-   npx ts-node ejemplos/nasa-power-ejemplo-corregido.ts
+   npx ts-node ejemplos/nasa-power-ejemplo.ts
 */
